@@ -5,12 +5,39 @@
   }
   body {
       background-color: powderblue;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-    h1 {
-      color: blue;
-    }
+  .wrapper{
+    margin: 60px;
+  }
+  .wrapper h1{
+    font-size: 40px;
+    color: rgb(65, 49, 239);
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  .team{
+    display: flex;
+    text-align: center;
+    width: auto;
+  }
+  .team .team_member{
+    background: #fff;
+    margin: 5px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+  }
+  .team .team_member h3{
+    color: #0880a4;
+    font-size: 20px;
+    margin-top: 70px;
+  }
+
     p {
-      color: red;
+      margin-top: 20px;
+      color: rgb(83, 64, 230);
+      font-size: 15px;
     }
     
     nav{
