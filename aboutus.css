@@ -15,6 +15,7 @@ body {
   color: #333;
   margin-bottom: 60px;
   text-align: center;
+  
   }
 
 .wrapper h1:after{
@@ -24,8 +25,10 @@ display: block;
 width: 150px;
 height: 4px;
 background: #333;
-right: 530px;
+right: 685px;
+border-radius: 3px;
 }
+
 .team{
   display: flex;
   text-align: center;
@@ -38,28 +41,48 @@ right: 530px;
   width: 300px;
   padding: 20px;
   line-height: 20px;
-
+  border-radius: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
   }
+ 
+
 .team .team_member h3{
-  color: #0880a4;
+  color: black;
   font-size: 20px;
   margin-top: 70px;
   }
 
 .team .team_member p.role{
-  color: #0880a4;
+  color: gray;
   font-size: 14px;
   text-transform: uppercase;
   margin: 12px 0;
   }
 
-
+  .button {
+    border: none;
+    outline: 0; 
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 100px ;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    background-color: #555;
+  }
     
 nav{
   width: 100;
   height: 100px;
   background-color: #fff;
 }
+
 ul{
   margin-left: 550px;
 }
@@ -73,10 +96,11 @@ ul li a {
   display: block;
   text-decoration-line: none;
   font-size: 14;
-  font-family: Aria;
+  font-family: Verdana;
   color: #1e1e1e;
   padding: 0 20px;
 }
 ul li a:hover {
-  color: red;
+  color:#0880a4;
+  background-color: powderblue;
   }

@@ -32,10 +32,11 @@
       display: block;
       text-decoration-line: none;
       font-size: 14;
-      font-family: Aria;
+      font-family: Verdana;
       color: #1e1e1e;
       padding: 0 20px;
     }
     ul li a:hover {
-      color: red;
+      color: #0880a4;
+      background-color:powderblue;
     }
