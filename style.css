@@ -82,8 +82,12 @@ body {
     font-size: 16px;
     cursor: pointer;
     background-color: #04AA6D;
+    margin-top: 13px;
   }
-  
+  .button:hover{
+    background-color: rgba(251, 199, 9, 0.967);
+    color: black;
+  }
   img {
     display: block;
     height: auto;
