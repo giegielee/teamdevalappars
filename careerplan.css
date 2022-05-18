@@ -16,7 +16,9 @@
       font-size: 40px;
       color: #333;
       margin-bottom: 60px;
+      font-weight: bold;
       text-align: center;
+      font-family: verdana;
       }
     .wrapper h1:after{
     content: "";
